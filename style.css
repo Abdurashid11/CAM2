@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+hr{
+    width: 1250px;
+    margin: 0px 0px 0px 50px ;
+}
+span{
+    color: #a99dda;
+}
+.header h4{
+    padding: 0px 0px 0px 10px;
+    color: white;
+}
+.header a:hover::before{
+    content: '<';
+    color: red;
+}
+.header a:hover{
+    color: red;
+}
+.header{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0px 80px 0px 80px ;
+    width: 1366px;
+    height: 132px;
+    background-color: rgb(48, 2, 134);
+}
+.header a{
+    color: white;
+    padding: 0px 0px 0px 800px;
+    width: 80px;
+}
+.div1{
+    font-family: "Inter", sans-serif;
+    width: 1366px;
+    height: 190px;
+    padding: 30px 0px 0px 80px;
+    color: white;
+    background-color: rgb(48, 2, 134);
+}
+.div1 p{
+    color: #a99dda;
+}
+.start p{
+    padding: 0px 80px;
+    color: #996830;
+}
+.fil{
+    display: flex;
+    padding: 0px 80px;
+}
+.fil h1{
+    padding: 0px 150px 0px 0px;
+}
+.fil h2{
+    padding: 0px 185px 0px 0px;
+}
+.fil h3{
+    padding: 0px 210px 0px 0px;
+}
+.fil h4{
+    padding: 0px 223px 0px 0px;
+}
+.fil h5{
+    padding: 0px 235px 0px 0px;
+}
+.fil h6{
+    padding: 0px 247px 0px 0px;
+}
+
+.h1{
+    font-weight: 100;
+}
+.h2{
+    font-weight: 400;
+}
+.h3{
+    font-weight: 600;
+}
+.h4{
+    font-weight: 800;
+}
+.final1{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+    font-size: 19px;
+}
+.A{
+    padding: 0px 70px;
+}
+.A a{
+    color: #6B7280;
+}
+.p2{
+    margin: 0px 70px;
+    color: #6B7280;
+}
+.A a:hover{
+    color: red;
+}
